@@ -34,7 +34,7 @@ from transformers.file_utils import (
 )
 from transformers.modeling_utils import PreTrainedModel
 from transformers.utils import logging
-from transformers.configuration_lxmert import LxmertConfig
+from transformers import LxmertConfig
 
 logger = logging.get_logger(__name__)
 
